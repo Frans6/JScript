@@ -1,30 +1,32 @@
-/*
- apresente a mensagem ao usuário:
- "adivinhe o número que estou pensando? Está entre
- 0 e 10"
+/* 
+  Crie uma lista de pacientes
 
- crie uma lógica para gerar um número aleatório e 
- verificar se o número digitado é o mesmo que o 
- aleatório gerado pelo sistema.
+  Cada paciente dentro da lista, deverá conter
+    nome
+    idade
+    peso
+    altura
 
- enquanto o usuário não adivinhar o número, mostrar
- a mensagem: Erro, tente novamente:
-
- caso o usuário acerte o número, apresentar a mensagem
- Parabéns! você adivinhou o número em X tentativas
-
- substitua o x da mensagem, pelo número de tentativas
-
+  Escreva uma lista contendo o nome dos pacientes
 */
 
-let result = prompt("adivinhe o número que estou pensando? Está entre 0 e 10")
-const randomNumber = Math.round(Math.random() * 10)
-
-let i = 1
-
-while( Number(result) != randomNumber ){
-  result = prompt("Erro, tente novamente: ")
-  i ++
-}
-
-alert(`Parabéns! Você adivinhou o número em ${i} tentativas`)
+const patients = [
+  {
+    name: "luiz",
+    age: 20,
+    weight: 100,
+    height: 190
+  },
+  {
+    name: "Alexandra",
+    age: 27,
+    weight: 70,
+    height: 170,
+  },
+  {
+    name: "Carlos",
+    age: 42,
+    weight: 90,
+    height: 180,
+  },
+]
