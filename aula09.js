@@ -1,4 +1,4 @@
-faça um programa que tenha um menu e apresente a seguinte mensagem:
+/*faça um programa que tenha um menu e apresente a seguinte mensagem:
 
 olá usuário! digite a opção desejada
 

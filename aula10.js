@@ -1,4 +1,4 @@
-apresente a mensagem ao usuário:
+/*apresente a mensagem ao usuário:
 "adivinhe o número que estou pensando? Está entre
 0 e 10"
 
@@ -13,7 +13,6 @@ caso o usuário acerte o número, apresentar a mensagem
 Parabéns! você adivinhou o número em X tentativas
 
 substitua o x da mensagem, pelo número de tentativas
-
 */
 
 let result = prompt("adivinhe o número que estou pensando? Está entre 0 e 10")
